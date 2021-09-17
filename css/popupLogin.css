@@ -1,0 +1,115 @@
+.div-popup{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5) ;
+  z-index: 8;
+}
+.div-popup-loging{
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width: 810px;
+  height: 300px;
+  font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+  background: #fff;
+  z-index: 9;
+}
+.div-login-title{
+  padding: 30px 0 0 50px;
+}
+.div-login-title h3{
+  font-size: 20px;
+  color:#424242;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+}
+.div-login-title span,.div-login-title a{
+  font-size: 12px;
+  color: #1a9cb7;
+}
+.div-popup-devide{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 30px auto;
+  padding: 25px 50px;
+  padding-top: 5px;
+  background-color:#fff;
+  color:#757575;
+}
+.div-popup-devide-left{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+.div-popup-devide-left form{
+  display: flex;
+  flex-direction: column;
+}
+
+.div-popup-devide-left form input{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 35px 0 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.div-popup-devide-left form label{
+  margin-bottom: 10px;
+}
+.div-popup-devide-left form button[type="submit"]{
+
+  padding: 10px 40px;
+  color: #fff;
+  background: #f57224;
+  border: none;
+  margin: 15px 0 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+@media ( max-width :850px) {
+  .div-popup{
+    height: 100vh;
+  }
+  .div-popup-loging{
+    width: 80vw;
+  }
+  .div-popup-devide{
+    margin: 30px auto;
+    padding: 25px 0;
+    padding-top: 5px;
+  }
+  .div-popup-devide-left{
+
+    width: auto;
+  }
+  .div-popup-devide-left form{
+    justify-content: center;
+    align-items: center;
+  }
+  .div-popup-devide-left form label{
+    margin-bottom: 10px;
+  }
+  .div-popup-devide-left form input{
+    width: 70%;
+    height: 30px;
+    line-height: 38px;
+    padding: 0 35px 0 10px;
+    margin-bottom: 5px;
+    outline: none;
+  }
+}

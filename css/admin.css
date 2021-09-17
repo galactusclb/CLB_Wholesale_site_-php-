@@ -1,0 +1,134 @@
+
+.section{
+  margin: 0 !important;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.admin-pannel-left{
+  position: relative;
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+}
+.admin-pannel-left a{
+  color: #fff;
+}
+/*.outer-admin-left-pannel{
+  position: fixed;
+  width: 16vw;
+  background: green;
+  height: 100%;
+}*/
+.inner-admin-left-pannel{
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #002447;
+  color: #fff;
+  padding-top: 20px;
+}
+.admin-pannel-title{
+  display: flex;
+  flex-direction: row;
+  background: red;
+  font-size: 15px;
+  padding: 11px 10px 11px 20px;
+  margin-bottom: 2px;
+}
+.admin-pannel-title i{
+  font-size: 18px;
+}
+.admin-pannel-title a{
+  margin-left: 15px;
+}
+
+
+.admin-pennel-right{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 32px;
+}
+.div-table{
+  width: 1050px;
+}
+.div-search{
+  position: relative;
+  height: 40px;
+}
+.div-search nav{
+  position: relative;
+  float: left;
+  padding: 5px 0 ;
+}
+.div-search nav a{
+  position: relative;
+  padding: 5px 10px;
+  background: red;
+  left: 0px;
+  color: #fff;
+}
+.div-table-searchbar{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  float: right;
+  right: 0px;
+  width: 300px;
+  margin: 0px 25px;
+}
+.div-table-searchbar input[type="text"]{
+  width:150px;
+  padding: 8px 17px;
+  border: 0.07143rem solid #d2d2d2;
+  border-right: 0;
+  border-top-left-radius: 2.85714rem;
+  border-bottom-left-radius: 2.85714rem;
+  transition: 0.3s ;
+}
+.div-table-searchbar i{
+  width: 25px;
+  font-size: 18px;
+  padding: 10px 17px;
+  border: 0.07143rem solid #d2d2d2;
+  border-left: 0;
+  border-top-right-radius:  2.85714rem;
+  border-bottom-right-radius: 2.85714rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.div-table-searchbar i:hover{
+  color: #f57224;
+}
+
+
+.div-table table {
+	border-collapse: collapse;
+	top: 10px;
+  width: 1000px ;
+	font-size: 14px !important;
+	background: #fff;
+	box-shadow: 0 7px 14px 0 rgba(59, 65, 94, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+	border-radius: 10px;
+	cursor: default;
+}
+.div-table table th {
+  padding: 8px 5px;
+	margin-bottom: 10px;
+	background: #edf2f9;
+}
+
+.div-table table td {
+  max-height: 130px;
+	padding: 8px 5px;
+  text-align: center;
+  overflow: hidden;
+}
+.div-table table td img{
+  width: 90px;
+  height: 90px;
+}

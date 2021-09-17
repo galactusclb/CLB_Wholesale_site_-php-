@@ -1,0 +1,133 @@
+h3{
+  margin: 0;
+}
+.div-shoppincart{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.div-shoppincart h2{
+  font-family: inherit;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: normal;
+}
+.div-shoppincart h3{
+  position: relative;
+  display: block;
+  font-weight: 400;
+}
+.continue-shopping{
+  position: relative;
+  margin: 30px 0 0 0;
+}
+.continue-shopping a{
+  color: #f57224;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: solid 1px #f57224;
+  cursor: pointer;
+}
+.div-shoppincart table{
+  width: 100%;
+  border-collapse: collapse;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+}
+.div-shoppincart td,th{
+  text-align: left;
+  padding: .7em 1em;
+  width: auto;
+}
+.div-shoppincart tr{
+  border: solid 1px #eeeeee;
+  border-top: 0;
+}
+.div-shoppincart th{
+  background: #f8f8f8;
+}
+.td-close{
+  width: 40px !important;
+}
+.close-btn{
+  font-size: 25px;
+  border: 0;
+  background: none;
+  color: #d5d5d5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.close-btn:hover{
+  color: #f57224;
+}
+.tr-thumbnail{
+  width: 90px;
+}
+.tr-thumbnail a{
+  margin: auto;
+}
+.tr-thumbnail img{
+  width: 70px;
+}
+.th-productName{
+  font-weight: 600;
+  color: #f57224;
+}
+.td-colspan-button a{
+  float: right;
+  color: #fff;
+  font-weight: 600;
+  background: #f57224;
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.td-totalCost{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+@media ( max-width :850px) {
+  .div-shoppincart{
+    width: 100%;
+    margin: 0;
+  }
+  .div-shoppincart h2{
+    font-size: 24px;
+    margin: 20px 20px;
+  }
+  .div-shoppincart table{
+    width: 90%;
+    font-size: 13px;
+    margin: auto;
+  }
+  .div-shoppincart td,th{
+    text-align: left;
+    padding: 10px 5px;
+    width: auto;
+  }
+  .tr-thumbnail{
+    width: 70px !important;
+  }
+  .tr-thumbnail a{
+    margin: auto;
+  }
+  .tr-thumbnail a img{
+    width: 60px;
+  }
+  .td-display-none{
+    display: none;
+  }
+  .td-totalCost{
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .continue-shopping{
+    position: relative;
+    margin: 30px auto;
+  }
+
+}

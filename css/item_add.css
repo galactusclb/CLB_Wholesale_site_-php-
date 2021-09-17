@@ -1,0 +1,68 @@
+.div-item-add-form{
+  height: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 15px 30px;
+}
+.div-item-add-form form{
+  display: flex;
+  flex-direction: column;
+}
+.div-item-add-form form input[type="text"]{
+  width: 200px;
+  margin-right: 30px;
+}
+.div-addPrice-card{
+  display: flex;
+  flex-direction: column;
+}
+.div-addPrice-card div{
+  display: flex;
+  flex-direction: row;
+}
+.div-addPrice-card input[type="number"]{
+  width: 30px;
+  text-align: center;
+  -moz-appearance:textfield;
+}
+.div-addPrice-card input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.div-addPrice-card div i{
+  padding: 3px;
+  margin: 0 7px;
+  background: #f57224;
+  font-size: 13px;
+  color: #fff;
+  border: solid 2px #f57224;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.div-addPrice-card div i:hover{
+  background: #fff;
+  color: #f57224;
+}
+
+
+.div-item-add-form form button{
+  padding: 10px;
+  width: 80px;
+  height: auto;
+  margin: 20px 20px 20px 0;
+}
+.div-addPrice{
+  display: flex;
+  flex-direction: column;
+}
+.div-addPrice-title{
+  margin: 10px 0px;
+}
+.div-addPrice-details{
+  display: flex;
+  flex-direction: row;
+  padding: 0 0px 30px 40px;
+}

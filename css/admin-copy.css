@@ -1,0 +1,41 @@
+
+.section{
+  margin: 0 !important;
+  width: 100%;
+}
+
+.admin-pannel-left{
+  position: relative;
+  width: 16vw;
+  height: 100%;
+  overflow: hidden;
+}
+.admin-pannel-left a{
+  color: #fff;
+}
+.outer-admin-left-pannel{
+  position: fixed;
+  width: 16vw;
+  background: green;
+  height: 100%;
+}
+.inner-admin-left-pannel{
+  position: relative;
+  width: 16vw;
+  height: 100%;
+  background: #002447;
+  color: #fff;
+}
+.admin-pennel-right{
+  position: relative;
+  width: 80vw;
+  background: red;
+  padding: 32px;
+}
+.div-search{
+  position: relative;
+  width: 100%;
+}
+.div-search input{
+  float: right;
+}

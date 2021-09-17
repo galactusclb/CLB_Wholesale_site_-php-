@@ -1,0 +1,230 @@
+
+.div-billing-details{
+  width: 80%;
+  float: left;
+  margin: 50px auto;
+}
+.form-billing-details{
+  display: flex;
+  flex-direction: row;
+}
+.form-leftside{
+  width: 50%;
+  float: left;
+  margin-right: 4.347826087%;
+}
+.red-asterisk{
+  color: red;
+  font-weight: bold;
+}
+.form-row-left{
+  display: flex;
+  float: left;
+  flex-direction: column;
+  width: 47%;
+  overflow: visible;
+  padding: 3px;
+  margin: 0 0 6px;
+}
+.form-row-right{
+  display: flex;
+  float: right;
+  flex-direction: column;
+  width: 47%;
+  overflow: visible;
+  padding: 3px;
+  margin: 0 0 6px;
+}
+.form-row-single{
+  display: flex;
+  float: left;
+  flex-direction: column;
+  width: 100%;
+  padding: 3px;
+  margin: 0 0 6px;
+}
+.form-billing-details input[type=text]{
+  color:#666;
+  font-size: 15px;
+  padding: .75em;
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-rightside{
+  float: right;
+  width: 40%;
+}
+.form-rightside table{
+  width: 100%;
+  height: auto;
+  text-align: left;
+  border-collapse: collapse;
+  word-wrap: break-word;
+}
+.form-rightside tr{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.form-rightside th,td{
+  padding: 18px 12px;
+}
+.form-rightside th{
+  font-weight: 600;
+}
+.align-top{
+  display: flex;
+  flex-direction: row;
+}
+.form-rightside table input[type="text"]{
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  pointer-events: none;
+}
+.itemAmount{
+  width: 30px !important;
+}
+.td-productName{
+  font-weight: lighter;
+  padding-left: 18px;
+  color: #3a3a3a;
+}
+.th-shipping-head{
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.th-shipping div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 14px;
+}
+.th-shipping input[type="radio"]{
+  margin-right: 5px;
+}
+.th-left{
+  width: 45%;
+}
+.th-right{
+  width: 55%;
+}
+.div-creditcard{
+  position: relative;
+  font-size: .92em;
+  margin: 40px 0 20px 0;
+}
+.div-cards{
+  display: flex;
+  flex-direction: row;
+}
+.div-cards label{
+  font-weight: 600;
+  margin-right: 20px;
+}
+.div-cards img{
+  float: right;
+  max-width: 40px;
+  padding-left: 3px;
+  margin: 0;
+}
+.div-creditcard-details{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em 25px;
+  margin-top: 30px;
+  border-radius: 2px;
+  line-height: 1.5;
+  background-color: #dfdcde;
+  color:#515151;
+}
+.div-carddetails-singlerow{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.div-creditcard-details label{
+  font-weight: 600;
+}
+.div-cardnumber{
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  font-size: 12px;
+}
+.div-cardnumber input[type="text"]{
+  width: auto;
+  max-width: 290px;
+  padding: .6em;
+  border-right: 0;
+}
+.div-cardnumber span{
+  background: #fff;
+  font-size: 20px;
+  padding: .16em 0.3em;
+  margin: auto;
+  margin-left: 0;
+}
+.div-carddetails-2row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.div-carddetails-2row input[type="text"]{
+  width: 70%;
+  font-size: 15px;
+  padding: .4em;
+  line-height: normal;
+}
+.div-carddetails-left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.div-carddetails-right{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.div-creditcard button{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 85px;
+  border: 0;
+  background: #ffa500;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+@media ( max-width :850px) {
+  .form-billing-details{
+    flex-direction: column;
+  }
+  .form-leftside{
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+  .form-rightside{
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+  .div-billing-details{
+    width: 100%;
+    float: none;
+    margin: 50px auto;
+  }
+}
